@@ -16,12 +16,24 @@
     />
     <!-- styles css -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
   </head>
   <body>
   
       <header class="header fixed">
         <div class="main-content">
           <div class="body">
+             <!-- tablet/mobile menu -->
+        <label class="toggle__menu" for="menu__checkbox"
+        ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <path
+            fill="currentcolor"
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </label>
             <!-- Logo -->
             <img src="./assets/img/logo.svg" alt="Lesson" class="logo" />
             <!-- Nav -->
@@ -46,6 +58,30 @@
               <a href="#!" class="btn Sign-Up-btn">Sign Up</a>
             </div>
           </div>
+        </div>
+      </header>
+      <!-- header tablet/mobile -->
+      <header class="mobile-header">
+        <input
+          type="checkbox"
+          name=""
+          id="menu__checkbox"
+          class="menu__checkbox"
+          hidden
+        />
+        <!-- overlay -->
+        <label for="menu__checkbox" class="menu-overlay"></label>
+        <!-- menu_content -->
+        <div class="menu__drawer">
+          <a href="#!"> <img src="./assets/img/logo.svg" alt="" /></a>
+          <ul>
+            <li class="navbar__item"><a href="#!">Home</a></li>
+            <li class="navbar__item"><a href="#!">Souces</a></li>
+            <li class="navbar__item"><a href="#!">Pricing</a></li>
+            <li class="navbar__item"><a href="#!">Reviews</a></li>
+            <li class="btn-mobile separate"><a href="#!">Sign up</a></li>
+           
+          </ul>
         </div>
       </header>
       <main>
@@ -486,120 +522,8 @@
                 <a href="#!" class="btn">Read More</a>
               </div>
             </div>
-            <!-- blog item 4 -->
-            <div class="item">
-              <a href="#!">
-                <img
-                  src="./assets/img/blog-1.jpg"
-                  alt="How to become a pro web designer in 2022 and get remot job?"
-                  class="thumb"
-              /></a>
-              <div class="info">
-                <span class="date">21 November 2021</span>
-                <h3 class="title">
-                  <a href="#!">
-                    How to become a pro web designer in 2022 and get remot
-                    job?</a
-                  >
-                </h3>
-                <a href="#!" class="btn">Read More</a>
-              </div>
-            </div>
-            <!-- blog item 5 -->
-            <div class="item">
-              <a href="#!">
-                <img
-                  src="./assets/img/blog-2.jpg"
-                  alt="How to become a pro web designer in 2022 and get remot job?"
-                  class="thumb"
-              /></a>
-              <div class="info">
-                <span class="date">21 November 2021</span>
-                <h3 class="title">
-                  <a href="#!">
-                    How to become a pro web designer in 2022 and get remot
-                    job?</a
-                  >
-                </h3>
-                <a href="#!" class="btn">Read More</a>
-              </div>
-            </div>
-            <!-- blog item 6 -->
-            <div class="item">
-              <a href="#!">
-                <img
-                  src="./assets/img/blog-3.jpg"
-                  alt="How to become a pro web designer in 2022 and get remot job?"
-                  class="thumb"
-              /></a>
-              <div class="info">
-                <span class="date">21 November 2021</span>
-                <h3 class="title">
-                  <a href="#!">
-                    How to become a pro web designer in 2022 and get remot
-                    job?</a
-                  >
-                </h3>
-                <a href="#!" class="btn">Read More</a>
-              </div>
-            </div>
-            <!-- blog item 7 -->
-            <div class="item">
-              <a href="#!">
-                <img
-                  src="./assets/img/blog-1.jpg"
-                  alt="How to become a pro web designer in 2022 and get remot job?"
-                  class="thumb"
-              /></a>
-              <div class="info">
-                <span class="date">21 November 2021</span>
-                <h3 class="title">
-                  <a href="#!">
-                    How to become a pro web designer in 2022 and get remot
-                    job?</a
-                  >
-                </h3>
-                <a href="#!" class="btn">Read More</a>
-              </div>
-            </div>
-            <!-- blog item 8-->
-            <div class="item">
-              <a href="#!">
-                <img
-                  src="./assets/img/blog-2.jpg"
-                  alt="How to become a pro web designer in 2022 and get remot job?"
-                  class="thumb"
-              /></a>
-              <div class="info">
-                <span class="date">21 November 2021</span>
-                <h3 class="title">
-                  <a href="#!">
-                    How to become a pro web designer in 2022 and get remot
-                    job?</a
-                  >
-                </h3>
-                <a href="#!" class="btn">Read More</a>
-              </div>
-            </div>
-            <!-- blog item 9 -->
-            <div class="item">
-              <a href="#!">
-                <img
-                  src="./assets/img/blog-3.jpg"
-                  alt="How to become a pro web designer in 2022 and get remot job?"
-                  class="thumb"
-              /></a>
-              <div class="info">
-                <span class="date">21 November 2021</span>
-                <h3 class="title">
-                  <a href="#!">
-                    How to become a pro web designer in 2022 and get remot
-                    job?</a
-                  >
-                </h3>
-                <a href="#!" class="btn">Read More</a>
-              </div>
-            </div>
+            
+           
           </div>
           <div class="dots">
             <span class="dot"></span>
